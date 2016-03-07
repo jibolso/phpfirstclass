@@ -6,10 +6,13 @@
  * Time: 09:47
  */
 
+/*
 $modules = array("CMM007", "CMM020");
 
 foreach ($modules as $mod)
     echo $mod;
-
+*/
+$modules = array("CMM007", "CMM020");
+    echo $modules;
 
 ?>

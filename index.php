@@ -7,8 +7,5 @@
  */
 
 $modules = array("CMM007", "CMM020");
-
-echo $modules;
-
-
-?>
+foreach ($modules as $mod)
+    echo $mod;

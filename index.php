@@ -8,7 +8,7 @@
 
 $modules = array("CMM007", "CMM020");
 
-echo $modules;
+echo $modules[1];
 
 
 ?>

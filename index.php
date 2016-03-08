@@ -42,4 +42,6 @@ function wanted($name, $specs, $mnum, $snum){
     echo "Award for capture". ' £' . $award . '<br>';
 }
 
+
+wanted('Mavin', 5, 10, 20);
 ?>

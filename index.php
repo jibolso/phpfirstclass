@@ -39,7 +39,7 @@ function wanted($name, $specs, $mnum, $snum){
     echo "Suausage Rolls". ' ' . $snum . '<br>';
 
     $award = 10 * ((pow(2, $specs*$mnum*$snum))/2);
-    echo "Award for capture". ' £' . round_to_2dp($award) . '<br>';
+    echo "Award for capture". ' £' . number_format($award) . '<br>';
     //echo "Award for capture". ' £' . '<br>';
 }
 

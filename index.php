@@ -39,7 +39,8 @@ function wanted($name, $specs, $mnum, $snum){
     echo "Suausage Rolls". ' ' . $snum . '<br>';
 
     //$award = 10 * ((($specs*$mnum*$snum)**2)/2);
-    echo "Award for capture". ' £' . $award . '<br>';
+    //echo "Award for capture". ' £' . $award . '<br>';
+    echo "Award for capture". ' £' . '<br>';
 }
 
 

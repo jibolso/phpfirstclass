@@ -5,6 +5,10 @@
  * Date: 14/03/2016
  * Time: 10:41
  */
+
+echo $username = $_POST['username'];
+$password = $_POST['password'];
+/*
     include('connection.php');
 
     if(empty($_POST['username']) || empty($_POST['password'])){
@@ -23,7 +27,6 @@
         }else{
             header('Location: index.php?f');
         }
-
     }
-
+*/
 ?>

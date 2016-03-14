@@ -25,7 +25,7 @@
         }
 
         #loginModal button{
-            float: right;
+            align-content: center;
         }
 
         .labels {

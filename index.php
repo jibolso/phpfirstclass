@@ -36,7 +36,7 @@
     <body>
     <main>
         <section id="loginModal">
-            <form action="" method="post">
+            <form action="process.php" method="post">
             <div>
                 <label class="labels" for="username">Username</label>
                 <input type="text" name="username" id="username" value="" />

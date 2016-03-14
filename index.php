@@ -1,7 +1,4 @@
-<?php
-    //DB connection call
-    include("connection.php");
-?>
+
 <!Doctype html>
 <html>
 <head>

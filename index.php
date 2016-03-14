@@ -9,13 +9,14 @@
     <style type="text/css" rel="stylesheet">
         body{
             max-width: 960px;
-            margin: 0 auto;
+            margin:auto;
         }
         #loginModal {
             width:30%;
             background-color: transparent;
             border: solid;
             border-color: slategray;
+            margin: auto;
         }
     </style>
 </head>
@@ -23,11 +24,11 @@
     <main>
         <section id="loginModal">
             <div>
-                <label for="username" />
+                <label for="username">Username</label>
                 <input type="text" name="username" id="username" value="" />
             </div>
             <div>
-                <label for="password" />
+                <label for="password" >Password</label>
                 <input type="password" name="password" id="password" value="" />
             </div>
             <div>

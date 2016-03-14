@@ -20,6 +20,10 @@
             margin: auto;padding: 20px;
         }
 
+        #loginModal input{
+            margin:10px;
+        }
+
         .labels {
             margin-right: 20px;
         }

@@ -19,17 +19,21 @@
             border-color: slategray;
             margin: auto;padding: 20px;
         }
+
+        .labels {
+            margin-right: 20px;
+        }
     </style>
 </head>
     <body>
     <main>
         <section id="loginModal">
             <div>
-                <label for="username">Username</label>
+                <label class="labels" for="username">Username</label>
                 <input type="text" name="username" id="username" value="" />
             </div>
             <div>
-                <label for="password" >Password</label>
+                <label class="labels" for="password" >Password</label>
                 <input type="password" name="password" id="password" value="" />
             </div>
             <div>

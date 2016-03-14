@@ -1,7 +1,23 @@
+<?php
+    //DB connection call
+    include("connection.php");
+?>
 <!Doctype html>
 <html>
 <head>
-
+    <title>Login</title>
+    <style type="text/css" rel="stylesheet">
+        body{
+            max-width: 960px;
+            margin: 0 auto;
+        }
+        #loginModal {
+            width:30%;
+            background-color: transparent;
+            border: solid;
+            border-color: slategray;
+        }
+    </style>
 </head>
     <body>
     <main>

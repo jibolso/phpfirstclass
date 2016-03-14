@@ -10,13 +10,14 @@
         body{
             max-width: 960px;
             margin:auto;
+            margin-top:50px;
         }
         #loginModal {
             width:30%;
             background-color: transparent;
             border: solid;
             border-color: slategray;
-            margin: auto;
+            margin: auto;padding: 20px;
         }
     </style>
 </head>

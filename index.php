@@ -24,6 +24,10 @@
             margin:10px;
         }
 
+        #loginModal button{
+            float: right;
+        }
+
         .labels {
             margin-right: 20px;
         }

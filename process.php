@@ -14,11 +14,11 @@
     }else{
         $username = $_POST['username'];
         $password = $_POST['password'];
-        $sql = "SELECT uid FROM login WHERE username='$username' AND password = '$password'";
+        $sql = "SELECT * FROM login WHERE username='$username' AND password = '$password'";
         $result = mysqli_query($db, $sql);
         while($row = $result->fetch_array()){
             $user = $row['username'];
-            echo 'Usernmae:' . $user;
+            echo 'Username:' . $user;
         }
 
 /*

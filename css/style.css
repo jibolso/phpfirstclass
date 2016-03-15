@@ -22,3 +22,9 @@ body{
 .labels {
     margin-right: 20px;
 }
+
+#home {
+    border: solid;
+    border-color: darkgray;
+    max-width: 80%;
+}

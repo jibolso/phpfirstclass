@@ -18,14 +18,12 @@
         $result = mysqli_query($db, $sql);
         $num = mysqli_num_rows($result);
 
-        echo 'Number of rows returned: ' .mysqli_num_rows($result);
-        /*
-        if(mysqli_num_rows($result)){
-            header('Location: hone.php?s');
+        if(mysqli_num_rows($result) == 1){
+            header('Location: home.php?s');
         }else{
             header('Location: index.php?ns');
         }
-        */
+
     }
 
 ?>

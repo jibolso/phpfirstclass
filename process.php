@@ -18,7 +18,7 @@
         $result = mysqli_query($db, $sql);
         $row = mysqli_fetch_array($result);
 
-        while($row = mysql_fetch_array($result))
+        while($row = mysql_fetch_array($sql))
         {
             echo $row[1];
         }

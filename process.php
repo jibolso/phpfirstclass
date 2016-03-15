@@ -16,9 +16,9 @@
         $password = $_POST['password'];
         $sql = "SELECT uid FROM login WHERE username='$username' AND password = '$password'";
         $result = mysqli_query($db, $sql);
-        $num = mysqli_num_rows($result);
+        $row = mysqli_fetch_array($result);
 
-        echo $num['username'];
+        echo $row['username'];
         /*
         if(mysqli_num_rows($result) == 1){
             $_SESSION['name'] = $num['username'];

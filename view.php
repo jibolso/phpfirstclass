@@ -8,6 +8,8 @@
 
 include('connection.php');
     if($_GET['a']){
+        echo 'Selected a';
+        /*
         $sql = "SELECT * FROM marvelmovies";
         $data = mysqli_query($db, $sql);
 
@@ -23,7 +25,7 @@ include('connection.php');
             echo '</ul>';
             echo '</div>';
         }
-
+    */
     }elseif($_GET['b']){
 
     }elseif($_GET['c']){

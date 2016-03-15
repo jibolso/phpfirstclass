@@ -16,17 +16,18 @@
         $password = $_POST['password'];
         $sql = "SELECT uid FROM login WHERE username='$username' AND password = '$password'";
         $result = mysqli_query($db, $sql);
-        $num = mysqli_num_rows($result);
+        while($row = $result->fetch_array()){
+            echo $user = $row['username'];
+        }
 
+/*
         if(mysqli_num_rows($result) == 1){
-            while($row = $result->fetch_array()){
-               echo $user = $row['username'];
-            }
+
             //header('Location: home.php?s');
         }else{
             header('Location: index.php?ns');
         }
-
+*/
     }
 
 ?>

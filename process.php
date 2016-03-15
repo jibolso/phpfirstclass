@@ -17,7 +17,8 @@
         $sql = "SELECT uid FROM login WHERE username='$username' AND password = '$password'";
         $result = mysqli_query($db, $sql);
         while($row = $result->fetch_array()){
-            echo $user = $row['username'];
+            $user = $row['username'];
+            echo 'Usernmae:' . $user;
         }
 
 /*

@@ -16,19 +16,17 @@
         $password = $_POST['password'];
         $sql = "SELECT * FROM login WHERE username='$username' AND password = '$password'";
         $result = mysqli_query($db, $sql);
-        while($row = $result->fetch_array()){
-            $user = $row['username'];
-            echo 'Username:' . $user;
-        }
 
-/*
         if(mysqli_num_rows($result) == 1){
-
-            //header('Location: home.php?s');
+            while($row = $result->fetch_array()){
+                $user = $row['username'];
+                $_SESSION['user'] = $user;
+            }
+            header('Location: home.php?s');
         }else{
             header('Location: index.php?ns');
         }
-*/
+
     }
 
 ?>

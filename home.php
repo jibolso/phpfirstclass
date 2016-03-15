@@ -15,11 +15,11 @@
         </div>
         <nav>
             <ul id="nav">
-                <li><a href="">Home</a></li>
-                <li><a href="">Display All Movies</a></li>
-                <li><a href="">Display Movies Created by Marvel Studios</a></li>
-                <li><a href="">Display All Movies Created after 2010</a></li>
-                <li><a href="">Display all X-men Films</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="view.php?a">Display All Movies</a></li>
+                <li><a href="view.php?b">Display Movies Created by Marvel Studios</a></li>
+                <li><a href="view.php?c">Display All Movies Created after 2010</a></li>
+                <li><a href="view.php?d">Display all X-men Films</a></li>
             </ul>
         </nav>
     </section>

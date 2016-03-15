@@ -9,12 +9,7 @@
 include('connection.php');
     if($_GET['done']){
 
-        $sql = "SELECT * FROM marvelmovies";
-        $data = mysqli_query($db, $sql);
 
-        if(mysqli_num_rows($data) == 0){
-
-        }else{
             echo '<div>';
             echo '<ul>';
             echo '<li>MarvelMovieId</li><li>Year Released</li><li>Title></li><li>Production Studio></li><li>Notes></li>';
@@ -23,7 +18,6 @@ include('connection.php');
             }
             echo '</ul>';
             echo '</div>';
-        }
 
     }
 ?>

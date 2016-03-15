@@ -10,9 +10,6 @@
 
     if(empty($_POST['username']) || empty($_POST['password'])){
         header('Location: index.php?failed');
-
-    }elseif(empty($_POST['username']) && empty($_POST['password'])){
-        header('Location: index.php?f');
     }else{
         $username = $_POST['username'];
         $password = $_POST['password'];
@@ -22,7 +19,7 @@
         if(mysql_num_rows($result) == 1){
             header('Location: index.php?s');
         }else{
-            header('Location: index.php?f');
+            header('Location: index.php?ns');
         }
     }
 

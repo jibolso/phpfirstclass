@@ -20,10 +20,8 @@
 
         if(mysqli_num_rows($result) == 1){
             while($row = $result->fetch_array()){
-                $user = $row['username'];
+               echo $user = $row['username'];
             }
-
-            echo $user;
             //header('Location: home.php?s');
         }else{
             header('Location: index.php?ns');

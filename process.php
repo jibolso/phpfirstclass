@@ -6,15 +6,12 @@
  * Time: 10:41
  */
 
-echo $username = $_POST['username'];
-echo $password = $_POST['password'];
-/*
     include('connection.php');
 
     if(empty($_POST['username']) || empty($_POST['password'])){
         header('Location: index.php?failed');
 
-    }else if(empty($_POST['username']) && empty($_POST['password'])){
+    }elseif(empty($_POST['username']) && empty($_POST['password'])){
         header('Location: index.php?f');
     }else{
         $username = $_POST['username'];
@@ -28,5 +25,5 @@ echo $password = $_POST['password'];
             header('Location: index.php?f');
         }
     }
-*/
+
 ?>

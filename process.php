@@ -18,7 +18,10 @@
         $result = mysqli_query($db, $sql);
         $row = mysqli_fetch_array($result);
 
-        echo $row['username'];
+        while($row = mysql_fetch_array($result))
+        {
+            echo $row[1];
+        }
         /*
         if(mysqli_num_rows($result) == 1){
             $_SESSION['name'] = $num['username'];

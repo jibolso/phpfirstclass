@@ -20,7 +20,7 @@
 
         while($row = mysql_fetch_array($sql))
         {
-            echo $row[1];
+            echo $row['username'];
         }
         /*
         if(mysqli_num_rows($result) == 1){

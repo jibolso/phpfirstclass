@@ -25,14 +25,5 @@ include('connection.php');
             echo '</div>';
         }
 
-    }elseif($_GET['b']){
-
-    }elseif($_GET['c']){
-
-    }elseif($_GET['d']){
-
-    }else{
-
     }
-
 ?>

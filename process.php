@@ -16,10 +16,10 @@
         $sql = "SELECT uid FROM login WHERE username='$username' AND password = '$password'";
         $result = mysqli_query($db, $sql);
 
-        if(mysql_num_rows($result) == 1){
-            header('Location: index.php?s');
-        }else{
+        if(mysql_num_rows($result) == 0){
             header('Location: index.php?ns');
+        }else{
+            header('Location: index.php?s');
         }
     }
 

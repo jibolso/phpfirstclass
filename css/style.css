@@ -32,4 +32,6 @@ body{
 #home div {
     background-color: aquamarine;
     color: black;
+    padding: 20px;
+    margin: 10px;
 }

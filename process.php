@@ -8,7 +8,7 @@
 
 
     include('connection.php');
-
+    session_start();
     if(empty($_POST['username']) || empty($_POST['password'])){
         header('Location: index.php?failed');
     }else{
@@ -19,11 +19,13 @@
         $num = mysqli_num_rows($result);
 
         if(mysqli_num_rows($result) == 1){
+            $_SESSION['name'] = $num['username'];
             header('Location: home.php?s');
         }else{
             header('Location: index.php?ns');
         }
 
     }
+    session_abort();
 
 ?>

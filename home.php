@@ -1,4 +1,4 @@
-
+<?php session_start(); ?>
 <!Doctype html>
 <html>
 <head>
@@ -10,7 +10,7 @@
 <main>
     <section id="home">
         <div>
-            <p>Welcome!</p>
+            <p>Welcome! <?php echo $_SESSION['username']; ?></p>
         </div>
 
     </section>

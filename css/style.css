@@ -41,7 +41,6 @@ body{
     text-underline: none;
     display: inline-block;
     width: 100%;
-    border: dashed;
 }
 
 #nav li{

@@ -11,8 +11,8 @@ include('connection.php');
 
 
             echo '<div>';
-            echo '<ul>';
-            echo '<li>MarvelMovieId</li><li>Year Released</li><li>Title></li><li>Production Studio></li><li>Notes></li>';
+            echo '<ul id="movieAll">';
+            echo '<li>MarvelMovieId</li><li>Year Released</li><li>Title</li><li>Production Studio</li><li>Notes</li>';
 
             echo '</ul>';
             echo '</div>';

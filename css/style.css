@@ -46,4 +46,5 @@ body{
     text-decoration: none;
     text-underline: none;
     display: inline-block;
+    max-width: 70%;
 }

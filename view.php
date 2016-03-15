@@ -7,7 +7,7 @@
  */
 
 include('connection.php');
-    if($_GET['a']){
+    if($_GET['done']){
         echo 'Selected a';
         /*
         $sql = "SELECT * FROM marvelmovies";

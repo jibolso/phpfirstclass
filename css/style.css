@@ -32,6 +32,8 @@ body{
 #home div {
     background-color: aquamarine;
     color: black;
+    padding: 20px;
+    margin: 10px;
 }
 
 #nav {
@@ -50,4 +52,5 @@ body{
     border: thin;
     background-color: darksalmon;
     font-size: small;
+    max-width: 100%;
 }

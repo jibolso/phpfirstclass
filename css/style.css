@@ -40,7 +40,8 @@ body{
     text-decoration: none;
     text-underline: none;
     display: inline-block;
-    width: inherit;
+    width: 70%;
+    border: dashed;
 }
 
 #nav li{

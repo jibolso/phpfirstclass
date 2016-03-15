@@ -5,6 +5,7 @@
  * Date: 14/03/2016
  * Time: 10:41
  */
+/*
 
     include('connection.php');
 
@@ -22,5 +23,9 @@
             header('Location: index.php?s');
         }
     }
+*/
 
+$username = $_POST['username'];
+$password = $_POST['password'];
+echo $sql = "SELECT uid FROM login WHERE username='$username' AND password = '$password'";
 ?>

@@ -16,7 +16,7 @@
         <nav>
             <ul id="nav">
                 <li><a href="home.php">Home</a></li>
-                <li><a href="view.php?done=a">Display All Movies</a></li>
+                <li><a href="view.php?done">Display All Movies</a></li>
                 <li><a href="view.php?b">Display Movies Created by Marvel Studios</a></li>
                 <li><a href="view.php?c">Display All Movies Created after 2010</a></li>
                 <li><a href="view.php?d">Display all X-men Films</a></li>

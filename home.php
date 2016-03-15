@@ -10,7 +10,7 @@
 <main>
     <section id="home">
         <div>
-            <p>Welcome! <?php echo $_SESSION['username']; ?></p>
+            <p>Welcome! <?php echo $_SESSION['user']; ?></p>
         </div>
 
     </section>

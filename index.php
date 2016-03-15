@@ -3,32 +3,7 @@
 <html>
 <head>
     <title>Login</title>
-    <style type="text/css" rel="stylesheet">
-        body{
-            max-width: 960px;
-            margin:auto;
-            margin-top:50px;
-        }
-        #loginModal {
-            width:30%;
-            background-color: transparent;
-            border: solid;
-            border-color: slategray;
-            margin: auto;padding: 20px;
-        }
-
-        #loginModal input{
-            margin:10px;
-        }
-
-        #loginModal button{
-            align-content: center;
-        }
-
-        .labels {
-            margin-right: 20px;
-        }
-    </style>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
 </head>
     <body>
     <main>

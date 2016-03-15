@@ -17,7 +17,7 @@
         $sql = "SELECT uid FROM login WHERE username='$username' AND password = '$password'";
         $result = mysqli_query($db, $sql);
 
-        echo mysqli_num_rows($result);
+        echo 'Number of rows returned: ' .mysqli_num_rows($result);
         /*
         if(mysqli_num_rows($result)){
             header('Location: hone.php?s');

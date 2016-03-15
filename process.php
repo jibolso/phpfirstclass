@@ -6,6 +6,7 @@
  * Time: 10:41
  */
 
+session_start();
 
     include('connection.php');
 
@@ -29,4 +30,5 @@
 
     }
 
+session_abort();
 ?>

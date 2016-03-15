@@ -13,9 +13,7 @@ include('connection.php');
             echo '<div>';
             echo '<ul>';
             echo '<li>MarvelMovieId</li><li>Year Released</li><li>Title></li><li>Production Studio></li><li>Notes></li>';
-            while($row = $result->fetch_array()){
 
-            }
             echo '</ul>';
             echo '</div>';
 

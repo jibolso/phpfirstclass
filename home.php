@@ -9,7 +9,10 @@
 <body>
 <main>
     <section id="home">
-       <p>Welcome!</p>
+        <div>
+            <p>Welcome!</p>
+        </div>
+
     </section>
 </main>
 

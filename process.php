@@ -5,7 +5,7 @@
  * Date: 14/03/2016
  * Time: 10:41
  */
-/*
+
 
     include('connection.php');
 
@@ -17,15 +17,11 @@
         $sql = "SELECT uid FROM login WHERE username='$username' AND password = '$password'";
         $result = mysqli_query($db, $sql);
 
-        if(mysql_num_rows($result) == 0){
-            header('Location: index.php?ns');
+        if(mysqli_num_rows($result) == 1){
+            header('Location: hone.php?s');
         }else{
-            header('Location: index.php?s');
+            header('Location: index.php?ns');
         }
     }
-*/
 
-$username = $_POST['username'];
-$password = $_POST['password'];
-echo $sql = "SELECT uid FROM login WHERE username='$username' AND password = '$password'";
 ?>

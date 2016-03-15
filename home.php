@@ -13,7 +13,6 @@
         <div>
             <p>Welcome! <?php echo $_SESSION['user']; ?></p>
         </div>
-    </section>
         <nav>
             <ul id="nav">
                 <li><a href="">Home</a></li>
@@ -23,6 +22,8 @@
                 <li><a href="">Display all X-men Films</a></li>
             </ul>
         </nav>
+    </section>
+
     </header>
 </main>
 

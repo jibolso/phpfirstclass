@@ -2,7 +2,7 @@
 <!Doctype html>
 <html>
 <head>
-    <title>View All Movies</title>
+    <title>View Xmen Movies</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
 
 </head>

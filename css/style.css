@@ -71,5 +71,6 @@ body{
 }
 
 #listAllMovies li {
-    border: dashed;
+    border: solid;
+    max-width: 40px;
 }

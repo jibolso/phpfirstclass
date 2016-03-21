@@ -33,8 +33,7 @@ body{
     background-color: aquamarine;
     color: black;
     padding: 20px;
-    margin: 10px;
-    margin: auto;
+    margin: 10px auto;
 }
 
 #nav {
@@ -74,6 +73,4 @@ body{
     max-width: 100%;
 }
 
-#listAllMovies li {
-    border: solid;
-}
+

@@ -25,7 +25,7 @@
             </section>
 
         </header>
-        <section>
+        <section id="listAllMovies">
             <?php
             /**
              * Created by PhpStorm.

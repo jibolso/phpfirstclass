@@ -69,3 +69,7 @@ body{
     max-width: 90%;
     z-index: 400;
 }
+
+#listAllMovies li {
+    border: dashed;
+}

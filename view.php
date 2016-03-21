@@ -38,7 +38,7 @@
             if($_GET['done']){
                 echo '<div>';
                 echo '<ul id="movieAll">';
-                echo '<li>MarvelMovieId</li><li>Year Released</li><li>Title</li><li>Production Studio</li><li>Notes</li><br>';
+                echo '<li>MarvelMovieId</li><li>Year Released</li><li>Title</li><li>Production Studio</li><li>Notess</li><br>';
                 $query = "SELECT * FROM marvelmovies";
                 $db = mysqli_query($db, $query);
                 while($row = $db -> fetch_array()){

@@ -70,7 +70,10 @@ body{
     z-index: 400;
 }
 
+#listAllMovies{
+    max-width: 100%;
+}
+
 #listAllMovies li {
     border: solid;
-    max-width: 10px;
 }

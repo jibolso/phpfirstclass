@@ -39,7 +39,7 @@
                 echo '<div>';
                 echo '<ul id="movieAll">';
                 echo '<li>MarvelMovieId</li><li>Year Released</li><li>Title</li><li>Production Studio</li><li>Notess</li><br>';
-                $query = "SELECT * FROM marvelmovies WHERE title = '%X%'";
+                $query = "SELECT * FROM marvelmovies WHERE title LIKE '%X%'";
 
                 $result = mysqli_query($db, $query);
                 if(mysqli_num_rows($result) >= 1) {

@@ -64,9 +64,7 @@ body{
 
 }
 
-/** commit */
-
-#movieAll li {
+#movieAll li{
     text-decoration: none;
     text-underline: none;
     display: inline-block;

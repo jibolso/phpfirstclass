@@ -11,7 +11,7 @@ session_start();
     include('connection.php');
 
     if(empty($_POST['username']) || empty($_POST['password'])){
-        header('Location: index.php?failed');
+        header('Location: index.php?ns=1');
     }else{
         $username = $_POST['username'];
         $password = $_POST['password'];
@@ -25,7 +25,7 @@ session_start();
             }
             header('Location: home.php?s');
         }else{
-            header('Location: index.php?ns');
+            header('Location: index.php?ns=1');
         }
 
     }

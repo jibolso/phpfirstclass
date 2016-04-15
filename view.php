@@ -39,12 +39,18 @@
                 echo '<div>';
                 echo '<ul id="movieAll">';
                 echo '<li>MarvelMovieId</li><li>Year Released</li><li>Title</li><li>Production Studio</li><li>Notess</li><br>';
-                $query = "SELECT * FROM marvelmovies";
+                $query = "SELECT * FROM marvelmovies WHERE title = 'dfhdf'";
 
                 $result = mysqli_query($db, $query);
+                if(mysqli_num_rows($result) >= 1) {
+
+
                     while ($row = $result->fetch_array()) {
                         echo "<li>{$row['marvelMovieID']}</li><li>{$row['yearReleased']}</li><li>{$row['title']}</li><li>{$row['productionStudio']}</li><li>{$row['notes']}</li><br>";
                     }
+                }else{
+                    echo "No Result Found";
+                }
 
                 echo '</ul>';
                 echo '</div>';

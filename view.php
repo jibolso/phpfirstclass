@@ -42,7 +42,7 @@
                 $query = "SELECT * FROM marvelmovies";
 
                 $result = mysqli_query($db, $query);
-                    while ($row = $db->fetch_array()) {
+                    while ($row = $result->fetch_array()) {
                         echo "<li>{$row['marvelMovieID']}</li><li>{$row['yearReleased']}</li><li>{$row['title']}</li><li>{$row['productionStudio']}</li><li>{$row['notes']}</li><br>";
                     }
 

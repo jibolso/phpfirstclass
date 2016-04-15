@@ -42,13 +42,9 @@
                 $query = "SELECT * FROM marvelmovies";
 
                 $result = mysqli_query($db, $query);
-                if(mysqli_num_rows($result) >= 1) {
                     while ($row = $db->fetch_array()) {
                         echo "<li>{$row['marvelMovieID']}</li><li>{$row['yearReleased']}</li><li>{$row['title']}</li><li>{$row['productionStudio']}</li><li>{$row['notes']}</li><br>";
                     }
-                }else{
-                    echo "No Result Found";
-                }
 
                 echo '</ul>';
                 echo '</div>';

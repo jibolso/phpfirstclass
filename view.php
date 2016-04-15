@@ -39,16 +39,17 @@
                 echo '<div>';
                 echo '<ul id="movieAll">';
                 echo '<li>MarvelMovieId</li><li>Year Released</li><li>Title</li><li>Production Studio</li><li>Notess</li><br>';
-                $query = "SELECT * FROM marvelmovies WHERE title = 'o'";
-                if($db = mysqli_query($db, $query)) {
+                $query = "SELECT * FROM marvelmovies";
 
-
+                $result = mysqli_query($db, $query);
+                if(mysqli_num_rows($result) >= 1) {
                     while ($row = $db->fetch_array()) {
                         echo "<li>{$row['marvelMovieID']}</li><li>{$row['yearReleased']}</li><li>{$row['title']}</li><li>{$row['productionStudio']}</li><li>{$row['notes']}</li><br>";
                     }
                 }else{
                     echo "No Result Found";
                 }
+
                 echo '</ul>';
                 echo '</div>';
 

@@ -11,7 +11,7 @@
             <form action="process.php" method="post">
 
             <div>
-                <span><?php if($_GET['ns']){echo 'Login Failed';}?></span>
+                <span><?php if($_GET['ns']){echo 'Login Failed' . '<br>';}?></span>
                 <label class="labels" for="username">Username</label>
                 <input type="text" name="username" id="username" value="" />
             </div>
